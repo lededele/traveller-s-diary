@@ -1,0 +1,236 @@
+body{
+  background-image: url("https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&q=80&w=2000");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  backdrop-filter: blur(3px);
+}
+.container {
+  display: flex;
+  height: 100vh;
+  width: 300px;
+  background: radial-gradient(circle at 10% 10%, rgba(255, 166, 0, 0.847), rgba(218, 156, 42, 0.457), rgba(198, 147, 52, 0.228), rgba(206, 162, 80, 0), rgba(194, 157, 87, 0));
+}
+.title {
+  margin: auto;
+  font-size: 3em;
+  color: rgb(255, 255, 255);
+  font-family: fantasy;
+  letter-spacing: 3px;
+}
+.main {
+    background-image: url("https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&q=80&w=2000");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(218, 120, 9, 0.397);
+    margin-left: 50px;
+    margin-top: 50px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    z-index: 300px;
+}
+ul {
+    display: flex;
+    gap: 95px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+li {
+    list-style: none;
+    font-size: 1.2em;
+    font-family: Tahoma;
+    text-decoration-line: none;
+}
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+a:hover {
+    color: rgba(5, 0, 0, 0.708);
+    cursor: pointer;
+    text-decoration: none;
+}
+a:active {
+    color: rgb(26, 3, 151);
+}
+.content {
+    padding: 5px;
+}
+.statement1 {
+    font-family: Arial;
+    color: rgb(63, 62, 62);
+}
+h2 {
+    font-family: sans-serif;
+    color: rgb(47, 46, 46);
+}
+.scene {
+    transform: translateZ(400px);
+  perspective: 1200px;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  margin-top: 50px;
+  height: 200px;
+  width: 300px;
+}
+
+.carousel {
+    justify-content: center; 
+    align-items: center;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    animation: spin 10s linear infinite;;
+}
+.carousel:hover {
+    animation-play-state: paused;
+    cursor: grab;
+}
+.red1 {
+    height: 190px;
+    width: 150px;
+    background: grey;
+    border-radius: 5px;
+    position: absolute;
+    transform: rotateY(0deg) translateZ(300px);
+}
+.red1 img {
+    object-fit: cover;
+    height: 190px;
+    width: 150px;
+    border-radius: 5px;
+
+}
+.red2 {
+    height: 190px;
+    width: 150px;
+    background: grey;
+    border-radius: 5px;
+    position: absolute;
+    transform: rotateY(45deg) translateZ(300px);
+}
+.red2 img {
+    object-fit: cover;
+    height: 190px;
+    width: 150px;
+    border-radius: 5px;
+
+}
+.red3 {
+    height: 190px;
+    width: 150px;
+    background: grey;
+    border-radius: 5px;
+    position: absolute;
+    transform: rotateY(90deg) translateZ(300px);
+}
+.red3 img {
+    object-fit: cover;
+    height: 190px;
+    width: 150px;
+    border-radius: 5px;
+
+}
+.red4 {
+    height: 190px;
+    width: 150px;
+    background: grey;
+    border-radius: 5px;
+    position: absolute;
+    transform: rotateY(135deg) translateZ(300px);
+}
+.red4 img {
+    object-fit: cover;
+    height: 190px;
+    width: 150px;
+    border-radius: 5px;
+
+}
+.red5 {
+    height: 190px;
+    width: 150px;
+    background: grey;
+    border-radius: 5px;
+    position: absolute;
+    transform: rotateY(180deg) translateZ(300px);
+}
+.red5 img {
+    object-fit: cover;
+    height: 190px;
+    width: 150px;
+    border-radius: 5px;
+
+}
+.red6 {
+    height: 190px;
+    width: 150px;
+    background: grey;
+    border-radius: 5px;
+    position: absolute;
+    transform: rotateY(225deg) translateZ(300px);
+}
+.red6 img {
+    object-fit: cover;
+    height: 190px;
+    width: 150px;
+    border-radius: 5px;
+
+}
+.red7 {
+    height: 190px;
+    width: 150px;
+    background: grey;
+    border-radius: 5px;
+    position: absolute;
+    transform: rotateY(270deg) translateZ(300px);
+}
+.red7 img {
+    object-fit: cover;
+    height: 190px;
+    width: 150px;
+    border-radius: 5px;
+
+}
+.red8 {
+    height: 190px;
+    width: 150px;
+    background: grey;
+    border-radius: 5px;
+    position: absolute;
+    transform: rotateY(315deg) translateZ(300px);
+}
+.red8 img {
+    object-fit: cover;
+    height: 190px;
+    width: 150px;
+    border-radius: 5px;
+
+}
+@keyframes spin {
+    0%{
+       transform: rotateY(0deg); 
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+.link {
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 8px;
+    height: 25px;
+}
+.newest {
+    height: 300px;
+    height: 100px;
+    background: red;
+}
