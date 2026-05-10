@@ -36,6 +36,26 @@ body{
     scrollbar-width: none;
     z-index: 300px;
 }
+@media screen and(max-width: 600px) {
+ body {
+  display: inline-block;
+ }
+  .main {
+    height: 500px;
+    width: 380px;
+    margin-left: 1px;
+    flex-grow: 2;
+    flex-shrink: 2;
+  }
+  .container {
+    display: inline-block;
+    height: 150px;
+    width: 100vw;
+    
+  }
+
+  
+}
 ul {
     display: flex;
     gap: 95px;
